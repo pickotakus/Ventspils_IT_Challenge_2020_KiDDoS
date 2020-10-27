@@ -1,0 +1,22 @@
+var style = document.createElement("style");
+document.head.appendChild(style);
+style.sheet.insertRule("body{background-color:blue;margin: 0;background-color: lightblue;overflow-x: hidden;font-size:"+(16*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("button{font-size:"+(18*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("input{height:"+(21.33333396911621*Screen_Display_Ofset)+";width:"+(130*Screen_Display_Ofset)+";font-size:"+(18*Screen_Display_Ofset)+"}");
+style.sheet.insertRule("#Drag_Value{height:"+(20*Screen_Display_Ofset)+";width:"+(20*Screen_Display_Ofset)+"}");
+style.sheet.insertRule("#Ball{width:"+(60*Screen_Display_Ofset)+"px;height:"+(180*Screen_Display_Ofset)+"px;border-radius: 10%;position:absolute;z-index:100;}");
+style.sheet.insertRule("#Scean{position: absolute;margin-left:"+(550*Screen_Display_Ofset)+"px;margin-top:"+(20*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#Line_Storage{position:absolute;margin-top:"+(-55*Screen_Display_Ofset)+"px;margin-left:"+(300*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#Line_Storage div:nth-child(even){background-color:grey;height: "+(100*Screen_Display_Ofset)+"px;width: "+(2000*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#Line_Storage div:nth-child(odd){background-color:white;height: "+(100*Screen_Display_Ofset)+"px;width: "+(2000*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#Line_Storage #Liquid{background-color:blue;opacity:0.5;height: "+(800000*Screen_Display_Ofset)+"px;width: "+(2000*Screen_Display_Ofset)+"px;z-index:101;}");
+style.sheet.insertRule("#Line_Storage #See_Bed{background-color:grey;opacity:0.5;height: "+(window.innerHeight*Screen_Display_Ofset)+"px;width: "+(2000*Screen_Display_Ofset)+"px;z-index:101;}");
+style.sheet.insertRule("#Line_Storage #Water_Top{opacity:0.5;width: "+(2000*Screen_Display_Ofset)+"px;z-index:101;position: absolute; margin-top: "+(-31*Screen_Display_Ofset)+"px; margin-left: "+(35*Screen_Display_Ofset)+"px;overflow-y:hidden}");
+style.sheet.insertRule("#User_Input_Field div{margin-left:"+(20*Screen_Display_Ofset)+"px;margin-top:"+(10*Screen_Display_Ofset)+"px;width: "+(300*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#User_Input_Field #Output_Holder{margin-top:"+(30*Screen_Display_Ofset)+"px;margin-left:0px;}");
+style.sheet.insertRule("#User_Input_Field div button{margin-left:"+(10*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#User_Input_Field_Container{background-color:darkgrey;border: solid "+(5*Screen_Display_Ofset)+"px black;position: fixed;width: "+(330*Screen_Display_Ofset)+"px;}");
+style.sheet.insertRule("#Line_Storage{border-left:solid "+(5*Screen_Display_Ofset)+"px black;}");
+style.sheet.insertRule(".User_Buttons{border:solid "+(3*Screen_Display_Ofset)+"px green; background-color: lightgrey;width:"+(280*Screen_Display_Ofset)+";margin-left:"+(19*Screen_Display_Ofset)+"px;margin-top:"+(10*Screen_Display_Ofset)+"px;font-size:"+(30*Screen_Display_Ofset)+"px;text-align:center}");
+style.sheet.insertRule(".Ventspils_IT{position:fixed;border: solid black "+(2*Screen_Display_Ofset)+"px;background-color: lightblue;width:"+(250*Screen_Display_Ofset)+"px; text-align: center; font-size:"+(18*Screen_Display_Ofset)+"px}");
+style.sheet.insertRule("#Line_Storage #Diving_Bord_Pole{background-repeat: round;position:absolute;background-image: url('Images/One_Line_Meshure.png'); width:"+(139*Screen_Display_Ofset)+";}")
